@@ -106,12 +106,12 @@ body {
     .btn:hover {
         box-shadow: 0 0 10px 5px var(--neon-green);
     }
-  }
-  @media (hover:none) {
+}
+@media (hover:none) {
     .circle:active {
         box-shadow: 0 0 10px 5px var(--neon-green);
     }
-  }
+}
 
 @media only screen and (max-width: 767px) {
 
