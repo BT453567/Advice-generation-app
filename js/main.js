@@ -1,6 +1,6 @@
 const quoteID = document.getElementById("quote-id");
 const quoteContent = document.getElementById("quote");
-const circlButton = document.getElementById("circle-button");
+const circleButton = document.getElementById("circle-button");
 
 
 function fetchData() {
@@ -22,6 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
     fetchData();
 });
 
-document.addEventListener('click', function() {
+circleButton.addEventListener('click', function() {
     fetchData();
 });
