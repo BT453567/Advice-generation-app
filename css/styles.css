@@ -83,29 +83,16 @@ body {
 }
 
 .circle {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     position: absolute;
     height: 70px;
     width: 70px;
     bottom: -35px;
-    /* left: 50%;
-    transform: translateX(-50%);  */
     border-radius: 50%;
     padding: 1rem;
     background-color: var(--neon-green);
     cursor: pointer;
     border: none;
 }
-
-
-
-
-
-/* .circle:hover {
-    box-shadow: 0 0 10px 5px var(--neon-green);
-} */
 
 .circle img {
     height: 100%;
@@ -134,7 +121,5 @@ body {
         min-width: auto;
         width: 100%;
     }
-    
-
     
 }
