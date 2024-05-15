@@ -78,9 +78,9 @@ body {
 }
 
 .circle {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     position: absolute;
     height: 70px;
     width: 70px;
@@ -92,6 +92,10 @@ body {
     cursor: pointer;
     border: none;
 }
+
+
+
+
 
 /* .circle:hover {
     box-shadow: 0 0 10px 5px var(--neon-green);
