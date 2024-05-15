@@ -93,9 +93,9 @@ body {
     border: none;
 }
 
-.circle:hover {
+/* .circle:hover {
     box-shadow: 0 0 10px 5px var(--neon-green);
-}
+} */
 
 .circle img {
     height: 30px;
